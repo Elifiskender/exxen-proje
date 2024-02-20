@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #ffcb04;
+    width: 100%;
+    padding: 25px 15px;
+    justify-content: space-between;
+
+}
+
+nav .logo {
+
+    width: 25%;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    padding: 8px
+}
+
+nav .ticari.üye.ol button {
+    width:30px;
+    padding: 20px;
+    margin: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: larger;
+    background-color:black;
+    color:#ffcb04;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Inter', sans-serif;
+
+}
+
+
+img {
+    position: relative;
+    left: 300px;
+    width: 100%;
+}
+
+
+
+
+nav .stroke-btn-black-button {
+    background-color:black;
+    color: #ffcb04;
+    padding: 8px;
+    margin: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+nav .stroke-btn button {
+    padding: 8px;
+    margin: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: larger;
+    background-color: #ffcb04;
+    font-weight: bold;
+}
+
+.contactsubmit:hover {
+cursor:pointer;
+}
+
+nav .lang-icon-1 img {
+    font-weight: bold;
+    position: relative;
+    left: 5px;
+
+}
+
+
+nav .option-select {
+
+    font-weight: bold;
+}
+
+.slider {
+    box-sizing: border-box;
+    weight:510px;
+    height:108px;
+    background-color: rgb(30, 29, 29);
+    border-top: 1px solid black;
+    
+}
+
+.form-container {
+    
+    width: %100;
+    height: 100px;
+    display: block;
+
+
+}
+
+.form-container {
+   
+    background-color: rgb(30, 29, 29);
+}
+
+.form-container button {
+    background-color: #ffcb04;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    padding: 15px 100px;
+    position: relative;
+    left: 300px;
+    align-items: center;
+ 
+
+}
+
+.form-container input {
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    padding: 15px 80px;
+    position: relative;
+    left: 300px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.orta {
+    padding:100px;
+    background-color: black;
+    width: 100%;
+    height: 550px;
+}
+
+.orta img {
+    width: 60%;
+    display: block;
+    margin: auto;
+    position: relative;
+    left: 10px;
+}
+
+.orta img:hover {
+    cursor: pointer;
+}
+
+
+.container-1 {
+background-color:black;
+display:flex;
+justify-content:center;
+align-items: center;
+gap:15px;
+padding:15px;
+
+}
+
+.container-1:hover {
+    cursor: pointer;
+}
+
+.div-model-ici {
+    width:200px;
+    position: relative;
+    right: 300px;
+   
+}
+
+.yazi {
+    color:white;
+    text-align: center;
+    position: relative;
+    left: 300px;
+    font-size:large;
+   
+}
+
+.text-2 {
+    width:200px;
+    position: relative;
+    right: 300px;
+    
+}
+
+.text-3 {
+    width:200px;
+    position: relative;
+    right: 300px;
+}
+
+.img-tel {
+    background-color: black;
+}
+
+.img-tel img {
+    width:30%;
+    margin:1px;
+    padding:1px;
+    position: relative;
+    left: 500px;
+    margin-bottom:0.1px;
+}
+
+.son-bölüm {
+    background-color: black;
+}
+
+.yazi-1 {
+    box-sizing:border-box;
+    background-color: black;
+    color:#fefcfc;
+    width: 750px;
+    height: 250px;
+    text-align: center;
+    font-size:xx-large;
+    font-family: 'Roboto', sans-serif;
+    font-weight:800;
+    position: relative;
+    left:350px;
+}
+
+.son-3 {
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    width:150px;
+    margin:8px;
+    background-color:black;
+    margin-left:80px;
+    column-gap:1px;
+   
+    
+    
+}
+
+.son-3 img{
+   
+    border:2px solid gray;
+    
+ 
+}
+
+.son-3 img:hover {
+    cursor: pointer;
+}
+
+.ikonlar{
+
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width:30px;
+    height:10px;
+    position: relative;
+    right:8px;
+    gap: 8px;
+    border:1px solid black;
+    position: relative;
+    left:420px;
+
+}
+
+
+
+.blacklink{
+    background-color: black;
+    
+}
+
+.exxenyardim {
+
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    box-sizing: border-box;
+    color:#ffcb04;
+    background-color: rgb(30, 29, 29);
+    margin:200px;
+    padding:40px;
+
+}
+
+
+.grilink {
+    box-sizing:border-box;
+    position: relative;
+    top:-190px;
+    height:40px;
+}
+
+.exxenkünye {
+    font-size: 1rem;
+    text-align: center;
+    background-color:black;
+    color: #fff;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: bold;
+}
